@@ -23,9 +23,7 @@ term = st.slider("Terms",0,360)
 CreditHistory = 1
 area = st.selectbox("Select Area",["Semi-Urban","Urban"])
 
-import pandas as pd
-data = pd.read_csv("dataset/Dataset3-Telco-Customer-Churn.csv")
-data
+
 
 click = st.button("Submit")
 
